@@ -15,7 +15,7 @@ class ImageConverterNode(Node):
         # Create a subscriber to subscribe to the original image topic
         self.subscription = self.create_subscription(
             Image,
-            '/camera/rgb/image_raw',
+            '/rgb_to_depth/image_raw',
             self.image_callback,
             10
         )
@@ -25,7 +25,7 @@ class ImageConverterNode(Node):
         self.bridge = CvBridge()
 
     def image_callback(self, msg):
-        encoding = msg.header.frame_id
+        encoding = msg.encoding
         try:
             # Convert the ROS Image message to a BGR8 OpenCV image
             cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
@@ -36,7 +36,7 @@ class ImageConverterNode(Node):
 
             # Convert the BGR8 OpenCV image back to a ROS Image message
             converted_image_msg = self.bridge.cv2_to_imgmsg(cv_image, encoding='bgr8')
-
+            converted_image_msg.header = msg.header
             # Publish the converted image
             self.publisher.publish(converted_image_msg)
 
