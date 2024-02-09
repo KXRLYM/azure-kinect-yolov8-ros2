@@ -50,7 +50,7 @@ def generate_launch_description():
     return LaunchDescription([
     DeclareLaunchArgument(
         'overwrite_robot_description',
-        default_value="true" ,
+        default_value="false" ,
         description="Flag to publish a standalone azure_description instead of the default robot_description parameter."),
     ##############################################
     DeclareLaunchArgument(
