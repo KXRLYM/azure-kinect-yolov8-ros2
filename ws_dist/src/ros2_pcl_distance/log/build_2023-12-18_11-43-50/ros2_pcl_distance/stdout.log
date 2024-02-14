@@ -1,0 +1,42 @@
+running egg_info
+creating build/ros2_pcl_distance/ros2_pcl_distance.egg-info
+writing build/ros2_pcl_distance/ros2_pcl_distance.egg-info/PKG-INFO
+writing dependency_links to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/dependency_links.txt
+writing entry points to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/entry_points.txt
+writing requirements to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/requires.txt
+writing top-level names to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/top_level.txt
+writing manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+reading manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+writing manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+copying ros2_pcl_distance/ros2_point_cloud_distance copy.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+copying ros2_pcl_distance/__init__.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+copying ros2_pcl_distance/ros2_point_cloud_distance.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+copying ros2_pcl_distance/point_cloud_only.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+running install
+running install_lib
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/ros2_point_cloud_distance copy.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/__init__.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/ros2_point_cloud_distance.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/point_cloud_only.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/ros2_point_cloud_distance copy.py to ros2_point_cloud_distance copy.cpython-310.pyc
+byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/ros2_point_cloud_distance.py to ros2_point_cloud_distance.cpython-310.pyc
+byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/point_cloud_only.py to point_cloud_only.cpython-310.pyc
+running install_data
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index
+creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index/packages
+copying resource/ros2_pcl_distance -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index/packages
+copying package.xml -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ros2_pcl_distance
+running install_egg_info
+Copying build/ros2_pcl_distance/ros2_pcl_distance.egg-info to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ros2_point_cloud_distance script to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/ros2_pcl_distance
+Installing ros2_point_cloud_only script to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/ros2_pcl_distance
+writing list of installed files to '/home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/install.log'

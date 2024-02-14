@@ -1,0 +1,46 @@
+[0.980s] Invoking command in '/home/nam017/ws_dist/src/ros2_pcl_distance': PYTHONPATH=/home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/prefix_override:/home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_pcl_distance build --build-base /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build install --record /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/install.log --single-version-externally-managed
+[1.224s] running egg_info
+[1.224s] creating build/ros2_pcl_distance/ros2_pcl_distance.egg-info
+[1.224s] writing build/ros2_pcl_distance/ros2_pcl_distance.egg-info/PKG-INFO
+[1.225s] writing dependency_links to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/dependency_links.txt
+[1.225s] writing entry points to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/entry_points.txt
+[1.226s] writing requirements to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/requires.txt
+[1.226s] writing top-level names to build/ros2_pcl_distance/ros2_pcl_distance.egg-info/top_level.txt
+[1.226s] writing manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+[1.228s] reading manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+[1.228s] writing manifest file 'build/ros2_pcl_distance/ros2_pcl_distance.egg-info/SOURCES.txt'
+[1.229s] running build
+[1.229s] running build_py
+[1.229s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build
+[1.229s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib
+[1.230s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+[1.230s] copying ros2_pcl_distance/ros2_point_cloud_distance copy.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+[1.230s] copying ros2_pcl_distance/__init__.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+[1.230s] copying ros2_pcl_distance/ros2_point_cloud_distance.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+[1.230s] copying ros2_pcl_distance/point_cloud_only.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance
+[1.231s] running install
+[1.231s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.231s]   warnings.warn(
+[1.231s] running install_lib
+[1.232s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+[1.232s] copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/ros2_point_cloud_distance copy.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+[1.232s] copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/__init__.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+[1.233s] copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/ros2_point_cloud_distance.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+[1.233s] copying /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build/lib/ros2_pcl_distance/point_cloud_only.py -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance
+[1.233s] byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/ros2_point_cloud_distance copy.py to ros2_point_cloud_distance copy.cpython-310.pyc
+[1.233s] byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/__init__.py to __init__.cpython-310.pyc
+[1.234s] byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/ros2_point_cloud_distance.py to ros2_point_cloud_distance.cpython-310.pyc
+[1.234s] byte-compiling /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance/point_cloud_only.py to point_cloud_only.cpython-310.pyc
+[1.234s] running install_data
+[1.234s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index
+[1.235s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index
+[1.235s] creating /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index/packages
+[1.235s] copying resource/ros2_pcl_distance -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ament_index/resource_index/packages
+[1.236s] copying package.xml -> /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/share/ros2_pcl_distance
+[1.236s] running install_egg_info
+[1.238s] Copying build/ros2_pcl_distance/ros2_pcl_distance.egg-info to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages/ros2_pcl_distance-0.0.0-py3.10.egg-info
+[1.238s] running install_scripts
+[1.262s] Installing ros2_point_cloud_distance script to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/ros2_pcl_distance
+[1.262s] Installing ros2_point_cloud_only script to /home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/ros2_pcl_distance
+[1.263s] writing list of installed files to '/home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/install.log'
+[1.296s] Invoked command in '/home/nam017/ws_dist/src/ros2_pcl_distance' returned '0': PYTHONPATH=/home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/prefix_override:/home/nam017/ws_dist/src/ros2_pcl_distance/install/ros2_pcl_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/ros2_pcl_distance build --build-base /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/build install --record /home/nam017/ws_dist/src/ros2_pcl_distance/build/ros2_pcl_distance/install.log --single-version-externally-managed
